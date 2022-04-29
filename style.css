@@ -1,0 +1,57 @@
+body h1 {
+  font-family: poppins;
+}
+
+body ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-right: 20px;
+  padding-left: 730px;
+  overflow: hidden;
+  width: 420px;
+  background-color: #242424;
+}
+
+body li {
+  float: left;
+}
+
+body li a {
+  font-family: poppins;
+  font-size: 10px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body .dw a {
+  color: black;
+  background-color: #ffe600;
+}
+
+@media only screen and (max-width: 600px) {
+  body ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 20px;
+    padding-left: 2px;
+    overflow: hidden;
+    width: 310px;
+    background-color: #242424;
+  }
+  body li {
+    float: left;
+  }
+  body li a {
+    font-family: poppins;
+    font-size: small;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 7px;
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
