@@ -1,14 +1,15 @@
 body {
+    margin-top: auto;
+    margin-left: auto;
     h1{
         font-family: poppins;
     }
     ul {
         list-style-type: none;
         margin-top: 0px;
-        margin-right: 20px;
-        padding-left: 730px;
+        padding-left: 760px;
         overflow: hidden;
-        width: 420px;
+        width: 403px;
         background-color: rgb(36, 36, 36);
       }
       
@@ -18,7 +19,7 @@ body {
       
       li a {
         font-family: poppins;
-        font-size: 10px;
+        font-size: xx-small;
         display: block;
         color: rgb(255, 255, 255);
         text-align: center;
@@ -34,10 +35,9 @@ body {
         ul {
             list-style-type: none;
             margin-top: 0px;
-            margin-right: 20px;
             padding-left: 2px;      
             overflow: hidden;
-            width: 310px;
+            width: 300px;
             background-color: rgb(36, 36, 36);
           }
           
@@ -47,7 +47,7 @@ body {
           
           li a {
             font-family: poppins;
-            font-size: small;
+            font-size: xx-small;
             display: block;
             color: rgb(255, 255, 255);
             text-align: center;
