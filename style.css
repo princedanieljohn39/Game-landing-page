@@ -69,7 +69,7 @@ body .dw:hover:after {
 body .hover {
   display: inline-block;
   position: relative;
-  color: #ffffff;
+  color: #ffe600;
 }
 
 body .hover:after {
@@ -81,7 +81,7 @@ body .hover:after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #ffe600;
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.25s ease-out;
@@ -103,7 +103,7 @@ body .hover:hover:after {
     margin-top: 0px;
     padding-left: 2px;
     overflow: hidden;
-    width: 260px;
+    width: 257px;
     background-color: #242424;
   }
   body li {
@@ -118,6 +118,66 @@ body .hover:hover:after {
     padding: 14px 5px;
     text-decoration: none;
     margin-right: 0px;
+  }
+  body .dw a {
+    color: black;
+    background-color: #ffe600;
+  }
+  body .dw {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  body .dw:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.25s ease-out;
+    transition: -webkit-transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+  }
+  body .dw:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+  body .hover {
+    display: inline-block;
+    position: relative;
+    color: #ffe600;
+  }
+  body .hover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffe600;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.25s ease-out;
+    transition: -webkit-transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+  }
+  body .hover:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
   }
 }
 /*# sourceMappingURL=style.css.map */
