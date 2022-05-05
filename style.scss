@@ -59,7 +59,7 @@ body {
       .hover {
         display: inline-block;
         position: relative;
-        color: #ffffff;
+        color: rgb(255, 230, 0);
       }
       
       .hover:after {
@@ -70,7 +70,7 @@ body {
         height: 2px;
         bottom: 0;
         left: 0;
-        background-color: #ffffff;
+        background-color: rgb(255, 230, 0);
         transform-origin: bottom right;
         transition: transform 0.25s ease-out;
       }
@@ -86,7 +86,7 @@ body {
             margin-top: 0px;
             padding-left: 2px;      
             overflow: hidden;
-            width: 260px;
+            width: 257px;
             background-color: rgb(36, 36, 36);
           }
           
@@ -104,6 +104,60 @@ body {
             text-decoration: none;
             margin-right: 0px;
           }
+
+          .dw a{
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 230, 0);
+        }
+  
+        .dw {
+          display: inline-block;
+          position: relative;
+          color: #ffffff;
+        }
+        
+        .dw:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #000000;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+        
+        .dw:hover:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+  
+        .hover {
+          display: inline-block;
+          position: relative;
+          color: rgb(255, 230, 0);
+        }
+        
+        .hover:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: rgb(255, 230, 0);
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+        
+        .hover:hover:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+  
       }
 
 }
