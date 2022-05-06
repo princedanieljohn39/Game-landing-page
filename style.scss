@@ -1,6 +1,5 @@
 body {
     margin-top: auto;
-    margin-left: auto;
     h1{
         font-family: poppins;
     }
@@ -78,6 +77,11 @@ body {
       .hover:hover:after {
         transform: scaleX(1);
         transform-origin: bottom left;
+      }
+
+      img {
+        border-radius: 20px;
+        width: 300px;
       }
 
       @media only screen and (max-width:600px){
