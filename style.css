@@ -1,6 +1,5 @@
 body {
   margin-top: auto;
-  margin-left: auto;
 }
 
 body h1 {
@@ -95,6 +94,11 @@ body .hover:hover:after {
           transform: scaleX(1);
   -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
+}
+
+body img {
+  border-radius: 20px;
+  width: 300px;
 }
 
 @media only screen and (max-width: 600px) {
