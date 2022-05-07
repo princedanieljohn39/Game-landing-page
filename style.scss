@@ -6,7 +6,7 @@ body {
     ul {
         list-style-type: none;
         margin-top: 0px;
-        padding-left: 760px;
+        padding-left: 745px;
         overflow: hidden;
         width: 403px;
         background-color: rgb(36, 36, 36);
@@ -79,16 +79,26 @@ body {
         transform-origin: bottom left;
       }
 
-      img {
-        border-radius: 20px;
+      .first-image-class img {
+        border-radius: 15px;
         width: 300px;
       }
+      
+      .first-image-class :hover img {
+        transform: scale(1.2);
+      }
 
+      .first-image-class img {
+        overflow: hidden;
+        transform-origin: 0 0;
+        transition: transform .25s, visibility .25s ease-in;
+      }
+      
       @media only screen and (max-width:600px){
         ul {
             list-style-type: none;
             margin-top: 0px;
-            padding-left: 2px;      
+            padding-left: 1px;      
             overflow: hidden;
             width: 257px;
             background-color: rgb(36, 36, 36);
@@ -160,6 +170,11 @@ body {
         .hover:hover:after {
           transform: scaleX(1);
           transform-origin: bottom left;
+        }
+
+        img {
+          border-radius: 20px;
+          width: 257px;
         }
   
       }
