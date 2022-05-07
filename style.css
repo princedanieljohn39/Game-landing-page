@@ -9,7 +9,7 @@ body h1 {
 body ul {
   list-style-type: none;
   margin-top: 0px;
-  padding-left: 760px;
+  padding-left: 745px;
   overflow: hidden;
   width: 403px;
   background-color: #242424;
@@ -96,16 +96,31 @@ body .hover:hover:after {
           transform-origin: bottom left;
 }
 
-body img {
-  border-radius: 20px;
+body .first-image-class img {
+  border-radius: 15px;
   width: 300px;
+}
+
+body .first-image-class :hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body .first-image-class img {
+  overflow: hidden;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition: visibility .25s ease-in, -webkit-transform .25s;
+  transition: visibility .25s ease-in, -webkit-transform .25s;
+  transition: transform .25s, visibility .25s ease-in;
+  transition: transform .25s, visibility .25s ease-in, -webkit-transform .25s;
 }
 
 @media only screen and (max-width: 600px) {
   body ul {
     list-style-type: none;
     margin-top: 0px;
-    padding-left: 2px;
+    padding-left: 1px;
     overflow: hidden;
     width: 257px;
     background-color: #242424;
@@ -182,6 +197,10 @@ body img {
             transform: scaleX(1);
     -webkit-transform-origin: bottom left;
             transform-origin: bottom left;
+  }
+  body img {
+    border-radius: 20px;
+    width: 257px;
   }
 }
 /*# sourceMappingURL=style.css.map */
