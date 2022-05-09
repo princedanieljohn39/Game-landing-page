@@ -200,9 +200,25 @@ body .first-image-class img {
     -webkit-transform-origin: bottom left;
             transform-origin: bottom left;
   }
-  body img {
-    border-radius: 20px;
-    width: 257px;
+  body .first-image-class img {
+    border-radius: 40px;
+    width: 150px;
+    padding: 31px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  body .first-image-class :hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  body .first-image-class img {
+    overflow: hidden;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transition: visibility .25s ease-in, -webkit-transform .25s;
+    transition: visibility .25s ease-in, -webkit-transform .25s;
+    transition: transform .25s, visibility .25s ease-in;
+    transition: transform .25s, visibility .25s ease-in, -webkit-transform .25s;
   }
 }
 /*# sourceMappingURL=style.css.map */
